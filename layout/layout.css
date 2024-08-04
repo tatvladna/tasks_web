@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+    color: #175fa3;
+   }
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin: 100px;
+}
+.flex-item1 {
+    background-color: #bd9ad1;
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}
+.flex-item2 {
+    background-color: #bd9ad1;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+.flex-item3 {
+    background-color: #bd9ad1;
+    width: 100px;
+    height: 100px;
+}
+.flex-item4 {
+    background-color: #bd9ad1;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+.flex-item5 {
+    background-color: #bd9ad1;
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+    .conteiner{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        text-align:center;
+        font-size: 50px;
+        padding: 30px;
+    }
+
+    .item1 {background-color: #e7de5d; align-self: center; margin: 30px;}
+    .item2 {background-color: #e7de5d; align-self: center; margin: 30px; width: 100px;}
+    .item3 {background-color: #2bc21d; align-self: center; margin: 30px;}
+    .item4 {background-color: #2bc21d; align-self: center; margin: 30px; width: 1900px;}
+
+
+/*-------------------------------------------------------------------------------------*/
+
+.block1 {
+    color: maroon; /*цвет текста*/ 
+    width: 210px;
+    height: 210px; 
+    background: maroon;
+    border: solid 70px #dbdd51;
+    outline: solid 70px #2e0fa0;
+    margin: 80px;
+   }
+
+/*----------------------------------------------------------------------------------------*/
+
+.flex-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    height: 350px;
+    border: 3px solid black;
+}
+.flex-1 {
+    background-color: #5a35c0;
+    width: 100px;
+    height: 100px;
+    align-self: flex-start;
+}
+.flex-2 {
+    background-color: #5a35c0;
+    width: 100px;
+    height: 200px;
+    align-self: flex-start;
+}
+.flex-3 {
+    background-color: #5a35c0;
+    width: 100px;
+    height: 100px;
+    align-self: flex-start;
+}
+.flex-4 {
+    background-color: #5a35c0;
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}
+.flex-5 {
+    background-color: #5a35c0;
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}
+.flex-6 {
+    background-color: #5a35c0;
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+}

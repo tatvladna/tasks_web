@@ -1,0 +1,151 @@
+.formula { font-size: 1.2em; /* Размер текста формулы */ }
+
+sup, sub {
+       font-style: oblique; /*  */
+       color: burlywood; /*на всякий случай*/
+      }
+sub {
+       color: rgb(77, 3, 13); /*color*/
+      }
+body { 
+   font-family: Garamond; /*Шрифт для всех делаем одинаковый*/
+  }
+  /*img*/
+figure {
+      display:block;
+      margin:0 auto;
+      text-align: center;
+      background: #d5e7eb; /* Цвет фона */
+      padding: 10px; /* Поля вокруг */
+      width: 310px; /* Ширина */
+      margin: 0 10px 10px 0; /* Отступы */
+      transition: transform 0.5s ease;
+   }
+figure img {
+      display:block;
+      margin:0 auto;
+      border: 3px solid #0f898d; /* Параметры рамки */
+      transition: transform 0.5s ease;
+      border-radius: 20px
+   }
+figure p {
+      text-align: center;
+      margin-bottom: 0; /* Отступ снизу для текста */
+   }
+
+
+/*-------link----------*/
+a {
+    padding: 0px; /* Поля вокруг текста ссылки */
+    text-decoration: none; /* Убираем подчёркивание */
+   }
+a:hover {
+    background: rgb(184, 163, 241); /* Цвет фона при наведении на ссылку курсора */
+    color: rgb(3, 23, 110); /* Новый цвет текста */
+   }
+
+/*-----table-------*/
+table {
+  width: 100%;
+  background-color:#4e95e6;
+  border: 1px solid #000; /* Параметры рамки */
+  }
+td, th{
+  padding: 3px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid #000; /* Параметры рамки */
+  }
+th {
+  background: #4e95e6; /* Цвет фона */
+  color: #000000;  /* Цвет текста */
+  }
+  
+tbody tr:hover {
+  background: #b4b7d1; /* Цвет фона при наведении */
+  color: #fff; /* Цвет текста при наведении */
+  }
+  
+#left { text-align: left; }
+#right { text-align: right; }
+#center { text-align: center; }
+
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+   }
+h2 {
+    text-align: center;
+    color: #ffffff
+   }
+
+.p1 {
+    text-align: justify;
+    display: block;
+    width: 480px;
+    height: 380px;
+    border: 10px ridge lightblue;
+  }
+
+
+#menu{
+    background-color: #ddd;
+    border: 30px solid;
+}
+
+#header{ 
+    text-align: justify; /* Выравнивание внутреннего контента по левому краю */
+    width: 750px; /* Ширина блока и общая ширина*/
+    height: 50px; /* Высота блока */
+    margin-right: auto; /* Авто-отступ справа */
+    margin-left: auto; /* Авто-отступ слева */
+    padding: 10px; /* Внутренние поля вокруг содержимого */
+}
+
+
+
+  /* для контейнера */
+#container {
+    width: 770px; /* Ширина слоя или ширина макета+20px */
+    margin-right: auto; /* Авто-отступ справа */
+    margin-left: auto; /* Авто-отступ слева */
+   }
+  /* для блока 2 - меню */
+#menu {
+    width: 200px; /* Ширина слоя */ 
+    float: left; /* Обтекание с соседним слоем */ 
+    color: white; /* Цвет текста */
+    background: #008080; /* Цвет фона */
+    padding: 10px; /* Внутренние поля вокруг содержимого */
+   }
+   .main-menu li a{
+	text-decoration: none;
+	display: block;
+	padding: 25px;
+}
+
+
+.main-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pic {
+  text-align: center; /* Выравнивания картинки по центру в html */ 
+  }
+
+#content1 {
+    text-align: justify;
+      width: 700px; /* Ширина слоя */ 
+      height: 400px;
+      display: inline-block;
+      padding: 40px; /* Внутренние поля вокруг содержимого */ 
+      justify-content: center;
+      align-items: center;
+     } 
+
+#content2 {
+      width: 500px; /* Ширина слоя */ 
+      padding: 10px; /* Внутренние поля вокруг содержимого */ 
+      display: inline-block;
+     } 

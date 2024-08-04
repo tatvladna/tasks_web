@@ -1,0 +1,12 @@
+.btn {
+    "border": None,
+    "border-radius": "50%",
+    "padding": 0,
+    "backgroundColor": "blue",
+    "color": "white",
+    "textAlign": "center",
+    "fontSize": 20,
+    "height": 40,
+    "width": 40,
+    "margin": 7,
+}

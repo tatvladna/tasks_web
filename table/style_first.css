@@ -1,0 +1,122 @@
+section {
+    position: absolute;
+    min-height: 90vh;
+    width: 100%;
+    transform-style: inherit;
+    position: relative;
+   
+  }
+   
+.block1 {
+    z-index: 1;
+    background: #d5e7eb;
+  }
+   
+.block2::before {
+  background: #9995c0;
+    content: '';
+    top: 1; left: 1; right: 1; bottom: 1;
+    position: absolute;
+    display: block;
+    transform: translateZ(-.5px) scale(2);
+    z-index: -2;
+   
+  background-size: cover;
+   
+  }
+  
+h1 {
+    font-size: 50px;
+    position: absolute;
+    padding: 0.5rem;
+    background: #ffffff96;
+    transform: translateZ(-1px) scale(1) translate(-25%, -25%);
+    top: 49%;
+    left: 49%;
+    text-align: center;
+  }
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+   
+.block1 h1 {
+    z-index: 2;
+    transform: translate(-49%, -49%);
+  }
+.block2 h1 {
+    z-index: 10;
+    transform: translateZ(-.4px) scale(1) translate(-39%, -39%);
+  }
+
+.block3 h1 {
+    z-index: 10;
+    transform: translateZ(-.4px) scale(1) translate(-39%, -39%);
+  }
+   *,
+   *::before,
+   *::after,
+   :root {
+   box-sizing: border-box;
+  margin: 1;
+  padding: 1;
+  }
+  
+html {
+  height: 95%;
+  overflow: scroll;
+  }
+  
+body {
+  height: 95%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 0.8px;
+  transform-style: preserve-3d;
+  font-family: 'PT Astra Sans';
+  font-size: 40%;
+  }
+  
+  .wrap {
+    background: #c7b39b url(/images/good.avif);
+    height: 590px;
+    margin: 30px;
+    max-width: 100%;
+  }
+.elem {
+    background: linear-gradient(to bottom, #D3D3D3, #91c8cf);
+    width: 150px;
+    height: 150px;
+    color: #fcfcfc;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
+    line-height: normal;
+    border: 3px solid #5fb0be; /* Параметры рамки */
+    /* /* transition: transform 10s;
+    animation-delay: 10s; 
+    animation: show 10s 2;
+    opacity: 0;*/
+    /* margin: auto; */
+  }
+
+
+a {
+      text-decoration: none; /* Убираем подчёркивание */
+     }
+  
+.anim{
+      opacity: 0;
+      transition: 3s;
+  }
+
+
+.anim.show{
+      opacity: 1;
+      transition: 1s;
+  }
